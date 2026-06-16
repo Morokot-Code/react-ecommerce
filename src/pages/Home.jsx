@@ -24,7 +24,10 @@ function Home() {
 
   return (
     <div className="font-display">
-      <div style ={{backgroundImage: "url('./public/shose.png')"}} className=" bg-secondary bg-center bg-cover bg-no-repeat border border-t-0 border-x-0 border-b-gray-300 flex items-center h-screen px-10 lg:px-40">
+      <div
+        style={{ backgroundImage: "url('./shose.png')" }}
+        className=" bg-secondary bg-center bg-cover bg-no-repeat border border-t-0 border-x-0 border-b-gray-300 flex items-center h-screen px-10 lg:px-40"
+      >
         <div>
           <h2 className="text-xl font-bold">New Collections</h2>
           <h1 className="text-6xl lg:text-7xl font-bold mb-2">
